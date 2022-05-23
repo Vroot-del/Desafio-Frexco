@@ -1,0 +1,42 @@
+body{
+    background-color: darkslategrey;
+}
+
+#estoque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    padding: 0 2rem;
+    padding-right: 07%;
+}
+
+#estoque .form{
+    background-color: #fdfdfd;
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem;
+}
+
+#estoque .field{
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+#estoque label{
+    display: block;
+}
+
+#estoque input{
+    width: 100%;
+    margin-bottom: 8px;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 5px;
+}
+
+#estoque .actions{
+    text-align: center;
+    padding-left: auto;
+    margin-top: 0rem;
+}
